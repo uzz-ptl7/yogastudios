@@ -14,7 +14,7 @@ const Footer = () => {
     <footer className="bg-primary text-primary-foreground">
       <div className="container-yoga section-padding">
         {/* Main Footer Content */}
-        <div className="grid lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8 mb-12">
           {/* Brand */}
           <div className="space-y-6">
             <div className="flex items-center space-x-2">

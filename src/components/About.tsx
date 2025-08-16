@@ -1,4 +1,4 @@
-import yogaClassImage from "@/assets/yoga-class.jpg";
+import yogaClassImage from "@/assets/realistic-yoga-class.jpg";
 
 const About = () => {
   return (

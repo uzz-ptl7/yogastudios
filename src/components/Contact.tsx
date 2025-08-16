@@ -65,88 +65,89 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-3 gap-12">
           {/* Contact Form */}
-          <div className="yoga-card">
-            <h3 className="text-2xl font-heading font-semibold text-foreground mb-6">
-              Send us a Message
-            </h3>
-            
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-4">
+          <div className="lg:col-span-1">
+            <div className="yoga-card">
+              <h3 className="text-2xl font-heading font-semibold text-foreground mb-6">
+                Send us a Message
+              </h3>
+              
+              <form onSubmit={handleSubmit} className="space-y-6">
+                <div className="grid gap-4">
+                  <div>
+                    <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                      Name *
+                    </label>
+                    <Input
+                      id="name"
+                      name="name"
+                      type="text"
+                      value={formData.name}
+                      onChange={handleInputChange}
+                      className="bg-background border-border focus:border-primary"
+                      placeholder="Your full name"
+                      required
+                    />
+                  </div>
+                  
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
+                      Email *
+                    </label>
+                    <Input
+                      id="email"
+                      name="email"
+                      type="email"
+                      value={formData.email}
+                      onChange={handleInputChange}
+                      className="bg-background border-border focus:border-primary"
+                      placeholder="your@email.com"
+                      required
+                    />
+                  </div>
+                </div>
+
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                    Name *
+                  <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
+                    Phone (Optional)
                   </label>
                   <Input
-                    id="name"
-                    name="name"
-                    type="text"
-                    value={formData.name}
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    value={formData.phone}
                     onChange={handleInputChange}
                     className="bg-background border-border focus:border-primary"
-                    placeholder="Your full name"
+                    placeholder="+250 xxx xxx xxx"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                    Message *
+                  </label>
+                  <Textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleInputChange}
+                    className="bg-background border-border focus:border-primary min-h-32"
+                    placeholder="Tell us about your yoga experience, goals, or any questions you have..."
                     required
                   />
                 </div>
-                
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                    Email *
-                  </label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleInputChange}
-                    className="bg-background border-border focus:border-primary"
-                    placeholder="your@email.com"
-                    required
-                  />
-                </div>
-              </div>
 
-              <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
-                  Phone (Optional)
-                </label>
-                <Input
-                  id="phone"
-                  name="phone"
-                  type="tel"
-                  value={formData.phone}
-                  onChange={handleInputChange}
-                  className="bg-background border-border focus:border-primary"
-                  placeholder="+250 xxx xxx xxx"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                  Message *
-                </label>
-                <Textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleInputChange}
-                  className="bg-background border-border focus:border-primary min-h-32"
-                  placeholder="Tell us about your yoga experience, goals, or any questions you have..."
-                  required
-                />
-              </div>
-
-              <Button type="submit" className="w-full hero-button">
-                Send Message
-              </Button>
-            </form>
+                <Button type="submit" className="w-full hero-button">
+                  Send Message
+                </Button>
+              </form>
+            </div>
           </div>
 
-          {/* Contact Info & Map */}
-          <div className="space-y-8">
-            {/* Contact Details */}
-            <div className="yoga-card">
+          {/* Contact Info */}
+          <div className="lg:col-span-1">
+            <div className="yoga-card h-fit">
               <h3 className="text-2xl font-heading font-semibold text-foreground mb-6">
                 Visit Our Studio
               </h3>
@@ -226,9 +227,11 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+          </div>
 
-            {/* Map */}
-            <div className="yoga-card p-0 overflow-hidden">
+          {/* Map */}
+          <div className="lg:col-span-1">
+            <div className="yoga-card p-0 overflow-hidden h-fit">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15949.042721346838!2d30.05879!3d-1.9536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca4257eb81dd9%3A0x73e1d2b4c7daea7a!2sKigali%2C%20Rwanda!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s"
                 width="100%"
