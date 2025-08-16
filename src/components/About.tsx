@@ -74,7 +74,7 @@ const About = () => {
             </div>
             
             {/* Certification Badge */}
-            <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-xl shadow-elevated">
+            <div className="absolute bottom-6 right-6 bg-primary text-primary-foreground p-6 rounded-xl shadow-elevated">
               <div className="text-center">
                 <div className="text-3xl font-heading font-bold">8+</div>
                 <div className="text-sm">Years Experience</div>
