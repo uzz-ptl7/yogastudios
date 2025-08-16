@@ -41,7 +41,7 @@ const Testimonials = () => {
             Student <span className="text-primary">Stories</span>
           </h2>
           <div className="w-20 h-1 bg-accent mx-auto mb-8"></div>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-muted/40 max-w-2xl mx-auto leading-relaxed">
             Hear from our community members about their transformative 
             journeys and how yoga has enriched their lives.
           </p>
@@ -107,19 +107,19 @@ const Testimonials = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 text-center">
           <div>
             <div className="text-3xl font-heading font-bold text-primary mb-2">500+</div>
-            <div className="text-muted-foreground">Happy Students</div>
+            <div className="text-muted/40">Happy Students</div>
           </div>
           <div>
             <div className="text-3xl font-heading font-bold text-accent mb-2">95%</div>
-            <div className="text-muted-foreground">Satisfaction Rate</div>
+            <div className="text-muted/40">Satisfaction Rate</div>
           </div>
           <div>
             <div className="text-3xl font-heading font-bold text-secondary mb-2">8+</div>
-            <div className="text-muted-foreground">Years Experience</div>
+            <div className="text-muted/40">Years Experience</div>
           </div>
           <div>
             <div className="text-3xl font-heading font-bold text-primary mb-2">50+</div>
-            <div className="text-muted-foreground">Classes Weekly</div>
+            <div className="text-muted/40">Classes Weekly</div>
           </div>
         </div>
       </div>

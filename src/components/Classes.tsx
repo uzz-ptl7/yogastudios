@@ -61,7 +61,7 @@ const Classes = () => {
             Classes & <span className="text-primary">Programs</span>
           </h2>
           <div className="w-20 h-1 bg-accent mx-auto mb-8"></div>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-muted/40 max-w-2xl mx-auto leading-relaxed">
             Discover the perfect class for your journey. From gentle beginnings 
             to advanced practice, we offer something for every body and every soul.
           </p>

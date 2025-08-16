@@ -32,7 +32,7 @@ const Instructors = () => {
             Meet Your <span className="text-primary">Instructors</span>
           </h2>
           <div className="w-20 h-1 bg-accent mx-auto mb-8"></div>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-muted/40 max-w-2xl mx-auto leading-relaxed">
             Our experienced and certified instructors are here to guide you 
             on your yoga journey with wisdom, compassion, and expertise.
           </p>

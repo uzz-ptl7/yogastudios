@@ -14,7 +14,7 @@ const About = () => {
               <div className="w-20 h-1 bg-accent mb-8"></div>
             </div>
 
-            <div className="space-y-6 text-muted-foreground leading-relaxed">
+            <div className="space-y-6 text-muted/40 leading-relaxed">
               <p className="text-lg">
                 Welcome to our sacred space where mind, body, and spirit unite. 
                 For over 8 years, we've been dedicated to creating a welcoming 
@@ -42,7 +42,7 @@ const About = () => {
                   <span className="text-2xl">🧘</span>
                 </div>
                 <h3 className="font-heading font-semibold text-foreground mb-2">Mindfulness</h3>
-                <p className="text-sm text-muted-foreground">Present moment awareness</p>
+                <p className="text-sm text-muted/40">Present moment awareness</p>
               </div>
               
               <div className="text-center">
@@ -50,7 +50,7 @@ const About = () => {
                   <span className="text-2xl">💚</span>
                 </div>
                 <h3 className="font-heading font-semibold text-foreground mb-2">Wellness</h3>
-                <p className="text-sm text-muted-foreground">Holistic health approach</p>
+                <p className="text-sm text-muted/40">Holistic health approach</p>
               </div>
               
               <div className="text-center">
@@ -58,7 +58,7 @@ const About = () => {
                   <span className="text-2xl">🤝</span>
                 </div>
                 <h3 className="font-heading font-semibold text-foreground mb-2">Community</h3>
-                <p className="text-sm text-muted-foreground">Supportive environment</p>
+                <p className="text-sm text-muted/40">Supportive environment</p>
               </div>
             </div>
           </div>

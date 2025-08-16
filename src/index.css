@@ -7,17 +7,17 @@
 @layer base {
   :root {
     /* Core Color Palette */
-    --background: 0 0% 80%; /* #F7F3E9 - warm beige */
-    --foreground: 0 0% 17%; /* #2C2C2C - deep charcoal */
+    --background: 0 0% 5%; /* #F7F3E9 - warm beige */
+    --foreground: 0 0% 50%; /* #2C2C2C - deep charcoal */
 
-    --card: 43 35% 98%;
+    --card: 40 35% 80%;
     --card-foreground: 0 0% 17%;
 
     --popover: 43 35% 96%;
     --popover-foreground: 0 0% 17%;
 
     /* Primary - Earthy Brown */
-    --primary: 18 24% 40%; /* #7D5A50 */
+    --primary: 18 24% 30%; /* #7D5A50 */
     --primary-foreground: 43 35% 96%;
     --primary-glow: 18 30% 50%;
 
@@ -26,12 +26,12 @@
     --secondary-foreground: 0 0% 17%;
 
     /* Sage Green Accent */
-    --accent: 155 16% 55%; /* #88A096 */
+    --accent: 155 16% 35%; /* #88A096 */
     --accent-foreground: 43 35% 96%;
 
     /* Muted tones */
     --muted: 43 25% 90%;
-    --muted-foreground: 0 0% 45%;
+    --muted-foreground: 0 0% 5%;
 
     --destructive: 0 70% 50%;
     --destructive-foreground: 43 35% 96%;

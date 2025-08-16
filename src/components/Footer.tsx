@@ -160,7 +160,7 @@ const Footer = () => {
             Made with ❤️ in Rwanda by{" "}
             <a 
               href="https://www.sitecraftersz.co/" 
-              className="underline hover:text-accent transition-smooth" 
+              className="underline hover:text-black transition-smooth" 
               target="_blank" 
               rel="noopener noreferrer"
             >

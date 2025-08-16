@@ -59,7 +59,7 @@ const Contact = () => {
             Get in <span className="text-primary">Touch</span>
           </h2>
           <div className="w-20 h-1 bg-accent mx-auto mb-8"></div>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-muted/40 max-w-2xl mx-auto leading-relaxed">
             Ready to start your yoga journey? Have questions about our classes? 
             We'd love to hear from you and help you find your perfect practice.
           </p>
@@ -76,7 +76,7 @@ const Contact = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid gap-4">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                    <label htmlFor="name" className="block text-sm font-medium text-black mb-2">
                       Name *
                     </label>
                     <Input
@@ -85,14 +85,14 @@ const Contact = () => {
                       type="text"
                       value={formData.name}
                       onChange={handleInputChange}
-                      className="bg-background border-border focus:border-primary"
+                      className="bg-black/40 text-black border-border focus:border-primary"
                       placeholder="Your full name"
                       required
                     />
                   </div>
                   
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
+                    <label htmlFor="email" className="block text-sm font-medium text-black mb-2">
                       Email *
                     </label>
                     <Input
@@ -101,7 +101,7 @@ const Contact = () => {
                       type="email"
                       value={formData.email}
                       onChange={handleInputChange}
-                      className="bg-background border-border focus:border-primary"
+                      className="bg-black/40 text-black border-border focus:border-primary"
                       placeholder="your@email.com"
                       required
                     />
@@ -109,7 +109,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
+                  <label htmlFor="phone" className="block text-sm font-medium text-black mb-2">
                     Phone (Optional)
                   </label>
                   <Input
@@ -118,13 +118,13 @@ const Contact = () => {
                     type="tel"
                     value={formData.phone}
                     onChange={handleInputChange}
-                    className="bg-background border-border focus:border-primary"
+                    className="bg-black/40 text-black border-border focus:border-primary"
                     placeholder="+250 xxx xxx xxx"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                  <label htmlFor="message" className="block text-sm font-medium text-black mb-2">
                     Message *
                   </label>
                   <Textarea
@@ -132,7 +132,7 @@ const Contact = () => {
                     name="message"
                     value={formData.message}
                     onChange={handleInputChange}
-                    className="bg-background border-border focus:border-primary min-h-32"
+                    className="bg-black/40 text-black border-border focus:border-primary min-h-32"
                     placeholder="Tell us about your yoga experience, goals, or any questions you have..."
                     required
                   />

@@ -16,18 +16,18 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/95 via-black/60 to-black/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/95 via-black/90 to-black/80" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 container-yoga text-center max-w-4xl mx-auto px-4 mt-[100px] mb-4">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold text-gray-600 mb-6 leading-tight">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold text-gray-700 mb-6 leading-tight">
           Find Your <span className="text-primary">Balance</span>
         </h1>
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading text-accent mb-8">
           Embrace Your Inner Peace
         </h2>
-        <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl text-muted/40 mb-12 max-w-2xl mx-auto leading-relaxed">
           Experience yoga in a welcoming space for mind, body, and soul. 
           Join our community of wellness and mindfulness.
         </p>

@@ -87,7 +87,7 @@ const Pricing = () => {
             Simple <span className="text-primary">Pricing</span>
           </h2>
           <div className="w-20 h-1 bg-accent mx-auto mb-8"></div>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-muted/40 max-w-2xl mx-auto leading-relaxed">
             Choose the perfect plan for your yoga journey. All prices in Rwandan Francs (RWF).
             Start with a free trial class to experience our community.
           </p>
